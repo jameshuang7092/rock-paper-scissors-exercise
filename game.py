@@ -8,6 +8,10 @@ print("Rock, Paper, Scissors, Shoot!")
 
 # USER INPUTS
 
+user_choice = input("please make a selection ('rock', 'paper', 'scissors'): ")
+
+print("you chose:", user_choice)
+print(f"You chose: '{user_choice}' ")
 
 # Validate User Inputs
 
@@ -20,14 +24,14 @@ print("Rock, Paper, Scissors, Shoot!")
 
 # Display Results
 
--------------------
-Welcome 'Player One' to my Rock-Paper-Scissors game...
--------------------
-Please choose either 'rock', 'paper', or 'scissors': rock
-You chose: 'rock'
-The computer chose: 'paper'
--------------------
-Oh, the computer won. It's ok.
--------------------
-Thanks for playing. Please play again!
 
+#-------------------
+#Welcome 'Player One' to my Rock-Paper-Scissors game...
+#-------------------
+#Please choose either 'rock', 'paper', or 'scissors': rock
+#You chose: 'rock'
+#The computer chose: 'paper'
+#-------------------
+#Oh, the computer won. It's ok.
+#-------------------
+#Thanks for playing. Please play again!
