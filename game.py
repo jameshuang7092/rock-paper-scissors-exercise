@@ -1,5 +1,3 @@
-
-
 import random
 
 
@@ -30,6 +28,26 @@ print("Computer chose:", computer_choice)
 
 
 # Determine the Winner
+#credits to Bonnie Auger at NYU!!!
+
+if user_choice == computer_choice:
+    print("issa draw!!!")
+elif user_choice == "rock":
+    if computer_choice == "scissors":
+        print("rock beats scissors, you win! sheeeesh")
+    else:
+        print("paper beats rock (for some reason; idk i don't make the rules) you lose. wawa")
+elif user_choice == "paper":
+    if computer_choice == "rock":
+        print("paper beats rock, you win! sheeesh")
+    else:
+        print("scissors beats paper, you lose")
+elif user_choice == "scissors":
+    if computer_choice == "paper":
+        print("scissors beats paper, you win! sheeesh")
+    else:
+        print("rock beats scissors, you lose")
+
 
 
 # Display Results
