@@ -11,12 +11,21 @@ print("Rock, Paper, Scissors, Shoot!")
 # USER INPUTS
 
 user_choice = input("please make a selection ('rock', 'paper', 'scissors'): ")
+user_choice = user_choice.lower()
 
 print("you chose:", user_choice)
 print(f"You chose: {user_choice}")
 
 # Validate User Inputs
 
+#breakpoint()
+
+valid_options = ["rock", "paper", "scissors"]
+
+
+if user_choice not in valid_options:
+    print("sorry invalid entry, try again")
+    exit()
 
 
 # Computer Choice
@@ -24,8 +33,6 @@ print(f"You chose: {user_choice}")
 valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
 print("Computer chose:", computer_choice)
-
-
 
 # Determine the Winner
 #credits to Bonnie Auger at NYU!!!
