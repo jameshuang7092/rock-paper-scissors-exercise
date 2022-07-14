@@ -1,5 +1,9 @@
 
 
+import random
+
+
+
 print("welcome to rock paper scissors game")
 
 # this is the "game.py" file...
@@ -11,12 +15,18 @@ print("Rock, Paper, Scissors, Shoot!")
 user_choice = input("please make a selection ('rock', 'paper', 'scissors'): ")
 
 print("you chose:", user_choice)
-print(f"You chose: '{user_choice}' ")
+print(f"You chose: {user_choice}")
 
 # Validate User Inputs
 
 
+
 # Computer Choice
+
+valid_options = ["rock", "paper", "scissors"]
+computer_choice = random.choice(valid_options)
+print("Computer chose:", computer_choice)
+
 
 
 # Determine the Winner
