@@ -2,6 +2,7 @@
 
 
 
+
 ```
 python game.py
 
@@ -13,8 +14,9 @@ python game.py
 
 ```py 
 
-print("HELLO")
+print("hello! please enjoy the game!")
 
+Just follow the steps after running game.py
 
 ```
 
