@@ -24,7 +24,7 @@ valid_options = ["rock", "paper", "scissors"]
 
 
 if user_choice not in valid_options:
-    print("sorry invalid entry, try again")
+    print("sorry invalid entry")
     exit()
 
 
@@ -34,8 +34,11 @@ valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
 print("Computer chose:", computer_choice)
 
+
+
 # Determine the Winner
 #credits to Bonnie Auger at NYU!!!
+#https://nyu-tech-2335.slack.com/archives/C5WPFSB52/p1657672686150239
 
 if user_choice == computer_choice:
     print("issa draw!!!")
